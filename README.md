@@ -1,2 +1,2 @@
 # DermAssist
-DermAssist is an interpretable medical image classification pipeline that combines pretrained CNN embeddings with classical machine learning models, dimensionality reduction, and explainable AI techniques for skin lesion analysis.
+DermAssist is an interpretable skin lesion classification pipeline using pretrained CNN embeddings with classical statistical classifiers and LIME-based explainability.
