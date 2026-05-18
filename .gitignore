@@ -1,1 +1,48 @@
+# Raw downloaded datasets — never commit to GitHub (too large)
+data/raw/
 
+# Python standard ignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/*
+!data/.gitkeep
+embeddings/*
+!embeddings/.gitkeep
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
