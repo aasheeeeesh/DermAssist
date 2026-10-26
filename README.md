@@ -9,7 +9,7 @@
 
 <br>
 
-**DermAssist** is a state-of-the-art hybrid machine learning pipeline designed to detect melanoma from dermoscopy images. Rather than relying on a single "black-box" model, DermAssist leverages the deep representational power of **Pretrained CNNs (ResNet50)** combined with the robustness of **Classical Statistical Classifiers (SVM, Random Forest, etc.)**, all made transparent through **Explainable AI (XAI)** occlusion heatmaps.
+**DermAssist** is an interpretable hybrid machine learning pipeline designed to detect melanoma from dermoscopy images. Rather than relying on a single "black-box" model, DermAssist leverages the deep representational power of **Pretrained CNNs (ResNet50)** combined with the robustness of **Classical Statistical Classifiers (SVM, Random Forest, etc.)**, all made transparent through **Explainable AI (XAI)** occlusion heatmaps.
 
 ---
 
@@ -38,7 +38,7 @@ graph TD;
 
 ## 📊 Performance & Results
 
-Trained on a representative 700-image subset of the **ISIC (International Skin Imaging Collaboration)** Melanoma Dataset. The feature space was highly separable, leading to phenomenal clinical-grade results.
+Trained on a representative 700-image subset of the **ISIC (International Skin Imaging Collaboration)** Melanoma Dataset. The feature space was highly separable, leading to strong classification performance.
 
 | Classifier | Test Accuracy | Test F1-Score | Test AUC-ROC | Status |
 | :--- | :---: | :---: | :---: | :---: |
